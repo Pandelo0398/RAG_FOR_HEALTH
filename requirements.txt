@@ -1,0 +1,39 @@
+# Sistema RAG Médico - Requisitos
+
+# Dependencias principales
+llama-index-core>=0.10.0
+llama-index-llms-openai-like>=0.1.0
+llama-index-embeddings-huggingface>=0.2.0
+llama-index-vector-stores-chroma>=0.1.0
+
+# LLM y embeddings
+sentence-transformers>=2.2.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# Base de datos vectorial
+chromadb>=0.4.0
+
+# Validación y modelos
+pydantic>=2.0.0
+
+# Utilidades
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Procesamiento de texto
+regex>=2023.0.0
+
+# Desarrollo y testing (opcional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+jupyter>=1.0.0
+
+# Logging y monitoreo
+loguru>=0.7.0
+
+# Para interfaz web (opcional)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+streamlit>=1.28.0
